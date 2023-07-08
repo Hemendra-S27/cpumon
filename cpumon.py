@@ -1,33 +1,18 @@
-import tkinter as tk
-from tkinter import ttk
+from flask import Flask, render_template_string
 import psutil
-import time
-import threading
 
-class Application(tk.Tk):
-    def __init__(self):
-        super().__init__()
-        self.title("CPU Monitor")
-        
-        self.cpus = psutil.cpu_count()
-        self.cpu_vars = [tk.DoubleVar(value=0) for _ in range(self.cpus)]
-        self.progress_bars = []
+app = Flask(__name__)
 
-        for i in range(self.cpus):
-            ttk.Label(self, text=f"CPU {i+1}").grid(column=0, row=i)
-            pb = ttk.Progressbar(self, maximum=100, length=300, variable=self.cpu_vars[i])
-            pb.grid(column=1, row=i, padx=10, pady=5)
-            self.progress_bars.append(pb)
+@app.route('/')
+def home():
+    cpu_percentages = psutil.cpu_percent(percpu=True)
+    return render_template_string('''
+        <ul>
+            {% for cpu in cpus %}
+                <li>CPU {{ loop.index }}: {{ cpu }}%</li>
+            {% endfor %}
+        </ul>
+    ''', cpus=cpu_percentages)
 
-        self.update_cpu_usage()
-
-    def update_cpu_usage(self):
-        cpu_percentages = psutil.cpu_percent(percpu=True)
-        for i in range(self.cpus):
-            self.cpu_vars[i].set(cpu_percentages[i])
-        self.after(1000, self.update_cpu_usage)
-
-
-if __name__ == "__main__":
-    app = Application()
-    app.mainloop()
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
