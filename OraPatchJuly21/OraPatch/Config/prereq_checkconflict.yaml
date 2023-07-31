@@ -1,0 +1,7 @@
+tasks:
+  - name: prereq_checkconflict
+    description: "This task checks for conflicts before applying a patch."
+    execute: Y
+    type: local
+    path: /u01/home/oracle/OraPatch_Stage/PrePatch/prereq_checkconflict.sh
+    arguments: [OraHome, PatchHome, PatchName]

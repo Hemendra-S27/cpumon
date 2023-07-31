@@ -1,0 +1,636 @@
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Entering process_server with server_name=nrusca-sld0304, inventory_key=INVKEY20230717043416
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Entering process_server with server_name=nrusca-sld4043, inventory_key=INVKEY20230717043416
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld0304.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_2 :: Entering process_server with server_name=nrchbs-sld4116, inventory_key=INVKEY20230717043416
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4043.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Entering process_server with server_name=nrusca-sld4227, inventory_key=INVKEY20230717043416
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Entering process_server with server_name=nrusca-sld4219, inventory_key=INVKEY20230717043416
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_2 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrchbs-sld4116.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4227.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld0304.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4219.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4043.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_2 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrchbs-sld4116.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4227.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4219.yaml
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: === Space Info ===
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrusca-sld4043
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Available space : 52331.53125MB
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Required space  : 6216.958365440369MB
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: === Space Info ===
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4227
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Available space : 29258.5078125MB
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: === Space Info ===
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4219
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Available space : 74911.81640625MB
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: === User Confirmation for Task Execution ===
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Task Name       : Patch scp
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrusca-sld4043
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_1 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip to nrusca-sld4043@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4227
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusca-sld4227@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4219
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusca-sld4219@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: === Space Info ===
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Available space : 99109.25MB
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Required space  : 12433.916730880737MB
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name       : Patch scp
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:20:38 :: INFO :: ThreadPoolExecutor-0_0 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip to nrusca-sld0304@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: === Space Info ===
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4116
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: Available space : 30484.1875MB
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: Required space  : 6216.958365440369MB
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4116
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:20:39 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip to nrchbs-sld4116@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:22:05 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusca-sld4227 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:22:05 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusca-sld4219 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:22:35 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:22:35 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:22:35 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4227
+2023-07-17 05:22:35 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:22:35 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:22:35 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusca-sld4227@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:22:36 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:22:36 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:22:36 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4219
+2023-07-17 05:22:36 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:22:36 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:22:36 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusca-sld4219@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:22:41 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusca-sld4227 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:22:42 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusca-sld4219 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4227
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusca-sld4227@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4219
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:22:44 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusca-sld4219@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:22:51 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusca-sld4227 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:22:51 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusca-sld4219 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:22:54 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:22:54 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:22:54 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4227
+2023-07-17 05:22:54 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:22:54 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:22:54 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusca-sld4227@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:22:55 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:22:55 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:22:55 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4219
+2023-07-17 05:22:55 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:22:55 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:22:55 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusca-sld4219@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:23:01 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusca-sld4227 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:23:01 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusca-sld4219 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_3 :: Exiting process_server with server_name=nrusca-sld4227, inventory_key=INVKEY20230717043416
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_3 :: Result of process_server for nrusca-sld4227: True
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_3 :: Entering process_server with server_name=nrusca-sld4179, inventory_key=INVKEY20230717043416
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_3 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4179.yaml
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_3 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4179.yaml
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_4 :: Exiting process_server with server_name=nrusca-sld4219, inventory_key=INVKEY20230717043416
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_4 :: Result of process_server for nrusca-sld4219: True
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_4 :: Entering process_server with server_name=nrusca-sld4178, inventory_key=INVKEY20230717043416
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_4 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4178.yaml
+2023-07-17 05:23:03 :: INFO :: ThreadPoolExecutor-0_4 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4178.yaml
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: === Space Info ===
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4179
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: Available space : 30633.41796875MB
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4179
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusca-sld4179@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: === Space Info ===
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4178
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: Available space : 18040.765625MB
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4178
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:23:04 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusca-sld4178@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:24:35 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusca-sld4179 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:24:35 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusca-sld4178 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4178
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusca-sld4178@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4179
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:25:05 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusca-sld4179@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:25:11 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusca-sld4179 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:25:11 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusca-sld4178 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4179
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusca-sld4179@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4178
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:25:14 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusca-sld4178@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:25:20 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusca-sld4179 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:25:20 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusca-sld4178 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:25:21 :: INFO :: ThreadPoolExecutor-0_1 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip on nrusca-sld4043 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:25:22 :: INFO :: ThreadPoolExecutor-0_0 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip on nrusca-sld0304 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4178
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusca-sld4178@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4179
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:25:24 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusca-sld4179@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:25:28 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusca-sld4179 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:25:28 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusca-sld4178 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_3 :: Exiting process_server with server_name=nrusca-sld4179, inventory_key=INVKEY20230717043416
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_3 :: Result of process_server for nrusca-sld4179: True
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_3 :: Entering process_server with server_name=nrchbs-sld4130, inventory_key=INVKEY20230717043416
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_3 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrchbs-sld4130.yaml
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_3 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrchbs-sld4130.yaml
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Exiting process_server with server_name=nrusca-sld4178, inventory_key=INVKEY20230717043416
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Result of process_server for nrusca-sld4178: True
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Entering process_server with server_name=nrusca-sld4199, inventory_key=INVKEY20230717043416
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4199.yaml
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4199.yaml
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: === Space Info ===
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4199
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Available space : 24669.96875MB
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4199
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:25:31 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusca-sld4199@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:25:32 :: INFO :: ThreadPoolExecutor-0_3 :: === Space Info ===
+2023-07-17 05:25:32 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrchbs-sld4130
+2023-07-17 05:25:32 :: INFO :: ThreadPoolExecutor-0_3 :: Available space : 7109.53125MB
+2023-07-17 05:25:32 :: INFO :: ThreadPoolExecutor-0_3 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:25:33 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:25:33 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:25:33 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrchbs-sld4130
+2023-07-17 05:25:33 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:25:33 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:25:33 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrchbs-sld4130@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:26:29 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip on nrchbs-sld4116 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:26:29 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusca-sld4199 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:27:00 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:27:00 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:27:00 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4199
+2023-07-17 05:27:00 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:27:00 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:27:00 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusca-sld4199@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:27:03 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusca-sld4199 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:27:06 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:27:06 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:27:06 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4199
+2023-07-17 05:27:06 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:27:06 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:27:06 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusca-sld4199@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:27:10 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusca-sld4199 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:27:10 :: INFO :: ThreadPoolExecutor-0_1 :: === User Confirmation for Task Execution ===
+2023-07-17 05:27:10 :: INFO :: ThreadPoolExecutor-0_1 :: Task Name       : Patch scp
+2023-07-17 05:27:10 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrusca-sld4043
+2023-07-17 05:27:10 :: INFO :: ThreadPoolExecutor-0_1 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip
+2023-07-17 05:27:10 :: INFO :: ThreadPoolExecutor-0_1 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:27:10 :: INFO :: ThreadPoolExecutor-0_1 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip to nrusca-sld4043@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:27:11 :: INFO :: ThreadPoolExecutor-0_1 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip on nrusca-sld4043 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:27:14 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:27:14 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:27:14 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4199
+2023-07-17 05:27:14 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:27:14 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:27:14 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusca-sld4199@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:27:16 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrchbs-sld4130 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:27:16 :: INFO :: ThreadPoolExecutor-0_1 :: === User Confirmation for Task Execution ===
+2023-07-17 05:27:16 :: INFO :: ThreadPoolExecutor-0_1 :: Task Name       : Patch scp
+2023-07-17 05:27:16 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrusca-sld4043
+2023-07-17 05:27:16 :: INFO :: ThreadPoolExecutor-0_1 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:27:16 :: INFO :: ThreadPoolExecutor-0_1 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:27:16 :: INFO :: ThreadPoolExecutor-0_1 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip to nrusca-sld4043@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:27:17 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusca-sld4199 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Exiting process_server with server_name=nrusca-sld4199, inventory_key=INVKEY20230717043416
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Result of process_server for nrusca-sld4199: True
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Entering process_server with server_name=nrusca-sld4203, inventory_key=INVKEY20230717043416
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4203.yaml
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4203.yaml
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: === Space Info ===
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4203
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Available space : 30992.90625MB
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4203
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusca-sld4203@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:27:20 :: INFO :: ThreadPoolExecutor-0_1 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip on nrusca-sld4043 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:27:24 :: INFO :: ThreadPoolExecutor-0_1 :: === User Confirmation for Task Execution ===
+2023-07-17 05:27:24 :: INFO :: ThreadPoolExecutor-0_1 :: Task Name       : Patch scp
+2023-07-17 05:27:24 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrusca-sld4043
+2023-07-17 05:27:24 :: INFO :: ThreadPoolExecutor-0_1 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip
+2023-07-17 05:27:24 :: INFO :: ThreadPoolExecutor-0_1 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:27:24 :: INFO :: ThreadPoolExecutor-0_1 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip to nrusca-sld4043@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:27:29 :: INFO :: ThreadPoolExecutor-0_1 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip on nrusca-sld4043 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:27:34 :: INFO :: ThreadPoolExecutor-0_1 :: Exiting process_server with server_name=nrusca-sld4043, inventory_key=INVKEY20230717043416
+2023-07-17 05:27:34 :: INFO :: ThreadPoolExecutor-0_1 :: Result of process_server for nrusca-sld4043: True
+2023-07-17 05:27:34 :: INFO :: ThreadPoolExecutor-0_1 :: Entering process_server with server_name=nrchbs-sld0147, inventory_key=INVKEY20230717043416
+2023-07-17 05:27:34 :: INFO :: ThreadPoolExecutor-0_1 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrchbs-sld0147.yaml
+2023-07-17 05:27:34 :: INFO :: ThreadPoolExecutor-0_1 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrchbs-sld0147.yaml
+2023-07-17 05:27:35 :: INFO :: ThreadPoolExecutor-0_1 :: === Space Info ===
+2023-07-17 05:27:35 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrchbs-sld0147
+2023-07-17 05:27:35 :: INFO :: ThreadPoolExecutor-0_1 :: Available space : 33585.75MB
+2023-07-17 05:27:35 :: INFO :: ThreadPoolExecutor-0_1 :: Required space  : 6216.958365440369MB
+2023-07-17 05:27:36 :: INFO :: ThreadPoolExecutor-0_1 :: === User Confirmation for Task Execution ===
+2023-07-17 05:27:36 :: INFO :: ThreadPoolExecutor-0_1 :: Task Name       : Patch scp
+2023-07-17 05:27:36 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrchbs-sld0147
+2023-07-17 05:27:36 :: INFO :: ThreadPoolExecutor-0_1 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip
+2023-07-17 05:27:36 :: INFO :: ThreadPoolExecutor-0_1 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:27:36 :: INFO :: ThreadPoolExecutor-0_1 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip to nrchbs-sld0147@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:28:14 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusca-sld4203 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:28:16 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:16 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name       : Patch scp
+2023-07-17 05:28:16 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 05:28:16 :: INFO :: ThreadPoolExecutor-0_0 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip
+2023-07-17 05:28:16 :: INFO :: ThreadPoolExecutor-0_0 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:28:16 :: INFO :: ThreadPoolExecutor-0_0 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip to nrusca-sld0304@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:28:17 :: INFO :: ThreadPoolExecutor-0_0 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip on nrusca-sld0304 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:28:17 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:17 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name       : Patch scp
+2023-07-17 05:28:17 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 05:28:17 :: INFO :: ThreadPoolExecutor-0_0 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:28:17 :: INFO :: ThreadPoolExecutor-0_0 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:28:17 :: INFO :: ThreadPoolExecutor-0_0 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip to nrusca-sld0304@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:28:22 :: INFO :: ThreadPoolExecutor-0_0 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip on nrusca-sld0304 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:28:26 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:26 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name       : Patch scp
+2023-07-17 05:28:26 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 05:28:26 :: INFO :: ThreadPoolExecutor-0_0 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip
+2023-07-17 05:28:26 :: INFO :: ThreadPoolExecutor-0_0 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:28:26 :: INFO :: ThreadPoolExecutor-0_0 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip to nrusca-sld0304@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:28:31 :: INFO :: ThreadPoolExecutor-0_0 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip on nrusca-sld0304 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:28:35 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:35 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:28:35 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4116
+2023-07-17 05:28:35 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip
+2023-07-17 05:28:35 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:28:35 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip to nrchbs-sld4116@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:28:39 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:39 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name       : Patch scp
+2023-07-17 05:28:39 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 05:28:39 :: INFO :: ThreadPoolExecutor-0_0 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip
+2023-07-17 05:28:39 :: INFO :: ThreadPoolExecutor-0_0 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:28:39 :: INFO :: ThreadPoolExecutor-0_0 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip to nrusca-sld0304@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:28:39 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip on nrchbs-sld4116 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4116
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip to nrchbs-sld4116@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4203
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:28:44 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusca-sld4203@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:28:48 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusca-sld4203 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:28:51 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:51 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:28:51 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4203
+2023-07-17 05:28:51 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:28:51 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:28:51 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusca-sld4203@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:28:53 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip on nrchbs-sld4116 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:28:56 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusca-sld4203 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:28:58 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:58 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:28:58 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4116
+2023-07-17 05:28:58 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip
+2023-07-17 05:28:58 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:28:58 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip to nrchbs-sld4116@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:28:59 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:28:59 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:28:59 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4203
+2023-07-17 05:28:59 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:28:59 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:28:59 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusca-sld4203@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:29:04 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusca-sld4203 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:29:06 :: INFO :: ThreadPoolExecutor-0_4 :: Exiting process_server with server_name=nrusca-sld4203, inventory_key=INVKEY20230717043416
+2023-07-17 05:29:06 :: INFO :: ThreadPoolExecutor-0_4 :: Result of process_server for nrusca-sld4203: True
+2023-07-17 05:29:06 :: INFO :: ThreadPoolExecutor-0_4 :: Entering process_server with server_name=nrusca-sld4222, inventory_key=INVKEY20230717043416
+2023-07-17 05:29:06 :: INFO :: ThreadPoolExecutor-0_4 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4222.yaml
+2023-07-17 05:29:06 :: INFO :: ThreadPoolExecutor-0_4 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4222.yaml
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: === Space Info ===
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4222
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: Available space : 60595.42578125MB
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4222
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusca-sld4222@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:29:07 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip on nrchbs-sld4116 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:29:08 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:29:08 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:29:08 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrchbs-sld4130
+2023-07-17 05:29:08 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:29:08 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:29:08 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrchbs-sld4130@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:29:13 :: INFO :: ThreadPoolExecutor-0_2 :: Exiting process_server with server_name=nrchbs-sld4116, inventory_key=INVKEY20230717043416
+2023-07-17 05:29:13 :: INFO :: ThreadPoolExecutor-0_2 :: Result of process_server for nrchbs-sld4116: True
+2023-07-17 05:29:13 :: INFO :: ThreadPoolExecutor-0_2 :: Entering process_server with server_name=nrusau-slt4032, inventory_key=INVKEY20230717043416
+2023-07-17 05:29:13 :: INFO :: ThreadPoolExecutor-0_2 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusau-slt4032.yaml
+2023-07-17 05:29:13 :: INFO :: ThreadPoolExecutor-0_2 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusau-slt4032.yaml
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: === Space Info ===
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrusau-slt4032
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: Available space : 20822.70703125MB
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrusau-slt4032
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:29:14 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusau-slt4032@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:29:16 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrchbs-sld4130 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:29:23 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:29:23 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:29:23 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrchbs-sld4130
+2023-07-17 05:29:23 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:29:23 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:29:23 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrchbs-sld4130@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:29:31 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrchbs-sld4130 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:29:37 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:29:37 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:29:37 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrchbs-sld4130
+2023-07-17 05:29:37 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:29:37 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:29:37 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrchbs-sld4130@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:29:45 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrchbs-sld4130 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Exiting process_server with server_name=nrchbs-sld4130, inventory_key=INVKEY20230717043416
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Result of process_server for nrchbs-sld4130: True
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Entering process_server with server_name=nrusca-sld4910, inventory_key=INVKEY20230717043416
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4910.yaml
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4910.yaml
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: === Space Info ===
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4910
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Available space : 11398.83203125MB
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4910
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:29:52 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusca-sld4910@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:30:22 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusca-sld4222 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:30:32 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusau-slt4032 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:30:52 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:30:52 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:30:52 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4222
+2023-07-17 05:30:52 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:30:52 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:30:52 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusca-sld4222@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:30:57 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusca-sld4222 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrusau-slt4032
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusau-slt4032@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4222
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:30:59 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusca-sld4222@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:31:05 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusau-slt4032 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:31:05 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusca-sld4222 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:31:07 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusca-sld4910 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:31:07 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:31:07 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:31:07 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrusau-slt4032
+2023-07-17 05:31:07 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:31:07 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:31:07 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusau-slt4032@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:31:09 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:31:09 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:31:09 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4222
+2023-07-17 05:31:09 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:31:09 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:31:09 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusca-sld4222@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:31:12 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusau-slt4032 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:31:13 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusca-sld4222 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:31:15 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:31:15 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:31:15 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrusau-slt4032
+2023-07-17 05:31:15 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:31:15 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:31:15 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusau-slt4032@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Exiting process_server with server_name=nrusca-sld4222, inventory_key=INVKEY20230717043416
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Result of process_server for nrusca-sld4222: True
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Entering process_server with server_name=nrusca-sld4899, inventory_key=INVKEY20230717043416
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4899.yaml
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrusca-sld4899.yaml
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: === Space Info ===
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4899
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Available space : 67650.93359375MB
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4899
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:31:16 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrusca-sld4899@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:31:20 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusau-slt4032 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:31:22 :: INFO :: ThreadPoolExecutor-0_2 :: Exiting process_server with server_name=nrusau-slt4032, inventory_key=INVKEY20230717043416
+2023-07-17 05:31:22 :: INFO :: ThreadPoolExecutor-0_2 :: Result of process_server for nrusau-slt4032: True
+2023-07-17 05:31:22 :: INFO :: ThreadPoolExecutor-0_2 :: Entering process_server with server_name=nrchbs-sld4232, inventory_key=INVKEY20230717043416
+2023-07-17 05:31:22 :: INFO :: ThreadPoolExecutor-0_2 :: Attempting to open YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrchbs-sld4232.yaml
+2023-07-17 05:31:22 :: INFO :: ThreadPoolExecutor-0_2 :: Successfully opened YAML file at /u01/home/oracle/OraPatch/PatchDB/INVKEY20230717043416/nrchbs-sld4232.yaml
+2023-07-17 05:31:23 :: INFO :: ThreadPoolExecutor-0_2 :: === Space Info ===
+2023-07-17 05:31:23 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4232
+2023-07-17 05:31:23 :: INFO :: ThreadPoolExecutor-0_2 :: Available space : 21004.71875MB
+2023-07-17 05:31:23 :: INFO :: ThreadPoolExecutor-0_2 :: Required space  : 2110.0759506225586MB
+2023-07-17 05:31:24 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:31:24 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:31:24 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4232
+2023-07-17 05:31:24 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip
+2023-07-17 05:31:24 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:31:24 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip to nrchbs-sld4232@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:31:38 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:31:38 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:31:38 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4910
+2023-07-17 05:31:38 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:31:38 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:31:38 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusca-sld4910@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:31:43 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusca-sld4910 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:31:46 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:31:46 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:31:46 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4910
+2023-07-17 05:31:46 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:31:46 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:31:46 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusca-sld4910@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:31:51 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusca-sld4910 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:31:55 :: INFO :: ThreadPoolExecutor-0_3 :: === User Confirmation for Task Execution ===
+2023-07-17 05:31:55 :: INFO :: ThreadPoolExecutor-0_3 :: Task Name       : Patch scp
+2023-07-17 05:31:55 :: INFO :: ThreadPoolExecutor-0_3 :: Database Server : nrusca-sld4910
+2023-07-17 05:31:55 :: INFO :: ThreadPoolExecutor-0_3 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:31:55 :: INFO :: ThreadPoolExecutor-0_3 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:31:55 :: INFO :: ThreadPoolExecutor-0_3 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusca-sld4910@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:32:00 :: INFO :: ThreadPoolExecutor-0_3 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusca-sld4910 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:32:03 :: INFO :: ThreadPoolExecutor-0_3 :: Exiting process_server with server_name=nrusca-sld4910, inventory_key=INVKEY20230717043416
+2023-07-17 05:32:03 :: INFO :: ThreadPoolExecutor-0_3 :: Result of process_server for nrusca-sld4910: True
+2023-07-17 05:32:18 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrusca-sld4899 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:32:22 :: INFO :: ThreadPoolExecutor-0_0 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip on nrusca-sld0304 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:32:47 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:32:47 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:32:47 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4899
+2023-07-17 05:32:47 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:32:47 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:32:47 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrusca-sld4899@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:32:50 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrusca-sld4899 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:32:53 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:32:53 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:32:53 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4899
+2023-07-17 05:32:53 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:32:53 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:32:53 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrusca-sld4899@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:32:55 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrusca-sld4899 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:32:59 :: INFO :: ThreadPoolExecutor-0_4 :: === User Confirmation for Task Execution ===
+2023-07-17 05:32:59 :: INFO :: ThreadPoolExecutor-0_4 :: Task Name       : Patch scp
+2023-07-17 05:32:59 :: INFO :: ThreadPoolExecutor-0_4 :: Database Server : nrusca-sld4899
+2023-07-17 05:32:59 :: INFO :: ThreadPoolExecutor-0_4 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:32:59 :: INFO :: ThreadPoolExecutor-0_4 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:32:59 :: INFO :: ThreadPoolExecutor-0_4 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrusca-sld4899@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:33:01 :: INFO :: ThreadPoolExecutor-0_4 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrusca-sld4899 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:33:04 :: INFO :: ThreadPoolExecutor-0_4 :: Exiting process_server with server_name=nrusca-sld4899, inventory_key=INVKEY20230717043416
+2023-07-17 05:33:04 :: INFO :: ThreadPoolExecutor-0_4 :: Result of process_server for nrusca-sld4899: True
+2023-07-17 05:33:07 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch/patch.zip on nrchbs-sld4232 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/patch
+2023-07-17 05:33:41 :: INFO :: ThreadPoolExecutor-0_1 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip on nrchbs-sld0147 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch
+2023-07-17 05:35:00 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:35:00 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:35:00 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4232
+2023-07-17 05:35:00 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip
+2023-07-17 05:35:00 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:35:00 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip to nrchbs-sld4232@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:35:02 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 05:35:02 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name       : Patch scp
+2023-07-17 05:35:02 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 05:35:02 :: INFO :: ThreadPoolExecutor-0_0 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip
+2023-07-17 05:35:02 :: INFO :: ThreadPoolExecutor-0_0 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:35:02 :: INFO :: ThreadPoolExecutor-0_0 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip to nrusca-sld0304@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:35:02 :: INFO :: ThreadPoolExecutor-0_0 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip on nrusca-sld0304 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:35:03 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 05:35:03 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name       : Patch scp
+2023-07-17 05:35:03 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 05:35:03 :: INFO :: ThreadPoolExecutor-0_0 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:35:03 :: INFO :: ThreadPoolExecutor-0_0 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:35:03 :: INFO :: ThreadPoolExecutor-0_0 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip to nrusca-sld0304@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:35:05 :: INFO :: ThreadPoolExecutor-0_0 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip on nrusca-sld0304 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:35:08 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK/JDK.zip on nrchbs-sld4232 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/JDK
+2023-07-17 05:35:12 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 05:35:12 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name       : Patch scp
+2023-07-17 05:35:12 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 05:35:12 :: INFO :: ThreadPoolExecutor-0_0 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip
+2023-07-17 05:35:12 :: INFO :: ThreadPoolExecutor-0_0 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:35:12 :: INFO :: ThreadPoolExecutor-0_0 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip to nrusca-sld0304@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:35:15 :: INFO :: ThreadPoolExecutor-0_0 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip on nrusca-sld0304 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:35:15 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:35:15 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:35:15 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4232
+2023-07-17 05:35:15 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:35:15 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:35:15 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip to nrchbs-sld4232@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:35:23 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM/OJVM.zip on nrchbs-sld4232 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/OJVM
+2023-07-17 05:35:24 :: INFO :: ThreadPoolExecutor-0_0 :: Exiting process_server with server_name=nrusca-sld0304, inventory_key=INVKEY20230717043416
+2023-07-17 05:35:24 :: INFO :: ThreadPoolExecutor-0_0 :: Result of process_server for nrusca-sld0304: True
+2023-07-17 05:35:29 :: INFO :: ThreadPoolExecutor-0_2 :: === User Confirmation for Task Execution ===
+2023-07-17 05:35:29 :: INFO :: ThreadPoolExecutor-0_2 :: Task Name       : Patch scp
+2023-07-17 05:35:29 :: INFO :: ThreadPoolExecutor-0_2 :: Database Server : nrchbs-sld4232
+2023-07-17 05:35:29 :: INFO :: ThreadPoolExecutor-0_2 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip
+2023-07-17 05:35:29 :: INFO :: ThreadPoolExecutor-0_2 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:35:29 :: INFO :: ThreadPoolExecutor-0_2 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip to nrchbs-sld4232@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:35:37 :: INFO :: ThreadPoolExecutor-0_2 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch/opatch.zip on nrchbs-sld4232 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/19c/H1_2023/opatch
+2023-07-17 05:35:43 :: INFO :: ThreadPoolExecutor-0_2 :: Exiting process_server with server_name=nrchbs-sld4232, inventory_key=INVKEY20230717043416
+2023-07-17 05:35:43 :: INFO :: ThreadPoolExecutor-0_2 :: Result of process_server for nrchbs-sld4232: True
+2023-07-17 05:36:41 :: INFO :: ThreadPoolExecutor-0_1 :: === User Confirmation for Task Execution ===
+2023-07-17 05:36:41 :: INFO :: ThreadPoolExecutor-0_1 :: Task Name       : Patch scp
+2023-07-17 05:36:41 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrchbs-sld0147
+2023-07-17 05:36:41 :: INFO :: ThreadPoolExecutor-0_1 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip
+2023-07-17 05:36:41 :: INFO :: ThreadPoolExecutor-0_1 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:36:41 :: INFO :: ThreadPoolExecutor-0_1 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip to nrchbs-sld0147@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:36:46 :: INFO :: ThreadPoolExecutor-0_1 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip on nrchbs-sld0147 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK
+2023-07-17 05:36:54 :: INFO :: ThreadPoolExecutor-0_1 :: === User Confirmation for Task Execution ===
+2023-07-17 05:36:54 :: INFO :: ThreadPoolExecutor-0_1 :: Task Name       : Patch scp
+2023-07-17 05:36:54 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrchbs-sld0147
+2023-07-17 05:36:54 :: INFO :: ThreadPoolExecutor-0_1 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip
+2023-07-17 05:36:54 :: INFO :: ThreadPoolExecutor-0_1 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:36:54 :: INFO :: ThreadPoolExecutor-0_1 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip to nrchbs-sld0147@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:37:08 :: INFO :: ThreadPoolExecutor-0_1 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip on nrchbs-sld0147 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM
+2023-07-17 05:37:17 :: INFO :: ThreadPoolExecutor-0_1 :: === User Confirmation for Task Execution ===
+2023-07-17 05:37:17 :: INFO :: ThreadPoolExecutor-0_1 :: Task Name       : Patch scp
+2023-07-17 05:37:17 :: INFO :: ThreadPoolExecutor-0_1 :: Database Server : nrchbs-sld0147
+2023-07-17 05:37:17 :: INFO :: ThreadPoolExecutor-0_1 :: Source File     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip
+2023-07-17 05:37:17 :: INFO :: ThreadPoolExecutor-0_1 :: Target Path     : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:37:17 :: INFO :: ThreadPoolExecutor-0_1 :: Transferring file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip to nrchbs-sld0147@/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:37:30 :: INFO :: ThreadPoolExecutor-0_1 :: Unzipping file /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip on nrchbs-sld0147 at /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch
+2023-07-17 05:37:41 :: INFO :: ThreadPoolExecutor-0_1 :: Exiting process_server with server_name=nrchbs-sld0147, inventory_key=INVKEY20230717043416
+2023-07-17 05:37:41 :: INFO :: ThreadPoolExecutor-0_1 :: Result of process_server for nrchbs-sld0147: True
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld0304, Start Time: 2023-07-17T05:20:38.120644, End Time: 2023-07-17T05:35:24.403601, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4043, Start Time: 2023-07-17T05:20:38.121183, End Time: 2023-07-17T05:27:34.289520, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrchbs-sld4116, Start Time: 2023-07-17T05:20:38.122048, End Time: 2023-07-17T05:29:13.438130, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4227, Start Time: 2023-07-17T05:20:38.122823, End Time: 2023-07-17T05:23:03.722190, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4219, Start Time: 2023-07-17T05:20:38.132638, End Time: 2023-07-17T05:23:03.930234, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4179, Start Time: 2023-07-17T05:23:03.723511, End Time: 2023-07-17T05:25:31.563516, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4178, Start Time: 2023-07-17T05:23:03.931404, End Time: 2023-07-17T05:25:31.590842, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrchbs-sld4130, Start Time: 2023-07-17T05:25:31.564475, End Time: 2023-07-17T05:29:52.482938, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4199, Start Time: 2023-07-17T05:25:31.591885, End Time: 2023-07-17T05:27:20.408188, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4203, Start Time: 2023-07-17T05:27:20.409322, End Time: 2023-07-17T05:29:06.679976, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrchbs-sld0147, Start Time: 2023-07-17T05:27:34.290284, End Time: 2023-07-17T05:37:41.830997, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4222, Start Time: 2023-07-17T05:29:06.681710, End Time: 2023-07-17T05:31:16.406836, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusau-slt4032, Start Time: 2023-07-17T05:29:13.439094, End Time: 2023-07-17T05:31:22.230675, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4910, Start Time: 2023-07-17T05:29:52.483976, End Time: 2023-07-17T05:32:03.064962, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrusca-sld4899, Start Time: 2023-07-17T05:31:16.408232, End Time: 2023-07-17T05:33:04.494352, Status: Success
+2023-07-17 05:37:41 :: INFO :: MainThread :: Server: nrchbs-sld4232, Start Time: 2023-07-17T05:31:22.232186, End Time: 2023-07-17T05:35:43.563865, Status: Success

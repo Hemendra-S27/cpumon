@@ -1,0 +1,23 @@
+server,status,message,start_time,end_time
+nrusca-sld0304,1,Shell Script Execution Successful,2023-07-17 03:18:35.902320,2023-07-17 03:19:29.942858
+nrusca-sld4043,1,Shell Script Execution Successful,2023-07-17 03:18:35.904089,2023-07-17 03:19:27.348953
+NRCHBS-SLD4157,0,Shell Script Execution Unsuccessful: Server 'NRCHBS-SLD4157' not found in known_hosts,2023-07-17 03:18:35.905890,2023-07-17 03:19:12.190811
+nrchbs-sld4113,1,Shell Script Execution Successful,2023-07-17 03:18:35.908297,2023-07-17 03:19:22.009551
+nrchbs-sld4116,1,Shell Script Execution Successful,2023-07-17 03:18:35.910493,2023-07-17 03:19:22.731498
+nrusca-sld4227,1,Shell Script Execution Successful,2023-07-17 03:18:35.912878,2023-07-17 03:19:25.212310
+nrusca-sld4219,1,Shell Script Execution Successful,2023-07-17 03:18:35.915962,2023-07-17 03:19:26.779023
+nrusca-sld4179,1,Shell Script Execution Successful,2023-07-17 03:18:35.918831,2023-07-17 03:19:28.845331
+nrusca-sld4178,1,Shell Script Execution Successful,2023-07-17 03:18:35.921343,2023-07-17 03:19:27.733722
+nrchbs-sld4130,1,Shell Script Execution Successful,2023-07-17 03:18:35.924277,2023-07-17 03:20:11.896430
+nrusca-sld4199,1,Shell Script Execution Successful,2023-07-17 03:19:12.207002,2023-07-17 03:19:30.602068
+nrusca-sld4203,1,Shell Script Execution Successful,2023-07-17 03:19:22.024830,2023-07-17 03:19:41.761569
+nrchbs-sld4086,1,Shell Script Execution Successful,2023-07-17 03:19:23.242313,2023-07-17 03:19:40.571725
+nrchbs-sld0147,1,Shell Script Execution Successful,2023-07-17 03:19:26.029626,2023-07-17 03:20:26.819169
+NRUSCA-SLD4242,0,Shell Script Execution Unsuccessful: Server 'NRUSCA-SLD4242' not found in known_hosts,2023-07-17 03:19:28.582314,2023-07-17 03:19:43.251515
+nrusca-sld4222,1,Shell Script Execution Successful,2023-07-17 03:19:29.025972,2023-07-17 03:20:00.053239
+nrusau-slt4032,1,Shell Script Execution Successful,2023-07-17 03:19:29.550955,2023-07-17 03:20:16.362417
+nrusca-sld4071,1,Shell Script Execution Successful,2023-07-17 03:19:32.055469,2023-07-17 03:19:58.494829
+NRCHBS-SLD4219,0,Shell Script Execution Unsuccessful: Server 'NRCHBS-SLD4219' not found in known_hosts,2023-07-17 03:19:34.100267,2023-07-17 03:19:51.034256
+nrusca-sld4910,1,Shell Script Execution Successful,2023-07-17 03:19:35.200205,2023-07-17 03:19:58.751691
+nrusca-sld4899,1,Shell Script Execution Successful,2023-07-17 03:19:46.491535,2023-07-17 03:20:01.744658
+nrchbs-sld4232,1,Shell Script Execution Successful,2023-07-17 03:19:46.995107,2023-07-17 03:20:05.717979

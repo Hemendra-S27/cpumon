@@ -1,0 +1,211 @@
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: For Oracle Home: /u01/app/oracle/product/12.1.0.2/DB_1
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : copy_opatch
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server     : nrusca-sld0304
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: Script File         : /u01/home/oracle/OraPatch_Stage/ShellScripts/copy_opatch.sh -OraHome /u01/app/oracle/product/12.1.0.2/DB_1 -BkpLoc /u01/software/bkp_dir -OpatchZip /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: Script Execurte     : Y
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: Script Type         : local
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: === Task Info ===
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 07:12:03 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : copy_opatch
+2023-07-17 07:12:03 :: INFO :: Thread-3 (print_output) :: MESSAGE:: 2023-07-17 07:12:03 EDT:: Start Latest Opatch to /u01/app/oracle/product/12.1.0.2/DB_1
+2023-07-17 07:12:03 :: INFO :: Thread-3 (print_output) :: MESSAGE:: 2023-07-17 07:12:03 EDT:: Taking tar backup...
+2023-07-17 07:12:06 :: INFO :: Thread-3 (print_output) :: MESSAGE:: 2023-07-17 07:12:06 EDT:: Tar file created and verified. Creating zip...
+2023-07-17 07:12:20 :: INFO :: Thread-3 (print_output) :: MESSAGE:: 2023-07-17 07:12:20 EDT:: Zip file exists. Unzipping...
+2023-07-17 07:12:27 :: INFO :: Thread-3 (print_output) :: MESSAGE:: 2023-07-17 07:12:27 EDT:: OPatch copy completed successfully.
+2023-07-17 07:12:27 :: INFO :: Thread-3 (print_output) :: RESULT:: 2023-07-17 07:12:27 EDT:: SUCCESSFUL
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: End Time: 2023-07-17 07:12:27
+
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: Disconnected from server: nrusca-sld0304
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server     : nrusca-sld0304
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: Script File         : /u01/home/oracle/OraPatch_Stage/ShellScripts/prereq_checkconflict.sh -OraHome /u01/app/oracle/product/12.1.0.2/DB_1 -PatchHome /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/34677720 -PatchName psu
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: Script Execurte     : Y
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: Script Type         : local
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: === Task Info ===
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 07:12:27 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:12:27 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:27 EDT:: Running patch pre-requisite checks
+2023-07-17 07:12:27 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:27 EDT:: ORA_HOME is set to     : /u01/app/oracle/product/12.1.0.2/DB_1
+2023-07-17 07:12:27 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:27 EDT:: PATCH_HOME is set to   : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/34677720
+2023-07-17 07:12:27 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:27 EDT:: PATCH_NAME is set to   : psu
+2023-07-17 07:12:27 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:27 EDT:: PATCH_NUMBER is set to : 34677720
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT:: Oracle Interim Patch Installer version 12.2.0.1.36
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT:: Copyright (c) 2023, Oracle Corporation.  All rights reserved.
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT::
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT:: PREREQ session
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT::
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT:: Oracle Home       : /u01/app/oracle/product/12.1.0.2/DB_1
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT:: Central Inventory : /u01/app/oraInventory
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT::    from           : /u01/app/oracle/product/12.1.0.2/DB_1/oraInst.loc
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT:: OPatch version    : 12.2.0.1.36
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT:: OUI version       : 12.1.0.2.0
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT:: Log file location : /u01/app/oracle/product/12.1.0.2/DB_1/cfgtoollogs/opatch/opatch2023-07-17_07-12-28AM_1.log
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT::
+2023-07-17 07:12:29 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:29 EDT:: Invoking prereq "checkconflictagainstohwithdetail"
+2023-07-17 07:12:33 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:33 EDT::
+2023-07-17 07:12:33 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:33 EDT:: Prereq "checkConflictAgainstOHWithDetail" passed.
+2023-07-17 07:12:33 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:33 EDT::
+2023-07-17 07:12:33 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:33 EDT:: OPatch succeeded.
+2023-07-17 07:12:33 :: INFO :: Thread-7 (print_output) :: MESSAGE:: 2023-07-17 07:12:33 EDT:: psu patch pre-requisite checks completed successfully
+2023-07-17 07:12:33 :: INFO :: Thread-7 (print_output) :: RESULT:: 2023-07-17 07:12:33 EDT:: SUCCESSFUL
+2023-07-17 07:12:33 :: INFO :: ThreadPoolExecutor-0_0 :: End Time: 2023-07-17 07:12:33
+
+2023-07-17 07:12:33 :: INFO :: ThreadPoolExecutor-0_0 :: Disconnected from server: nrusca-sld0304
+2023-07-17 07:12:33 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 07:12:33 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:12:33 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server     : nrusca-sld0304
+2023-07-17 07:12:33 :: INFO :: ThreadPoolExecutor-0_0 :: Script File         : /u01/home/oracle/OraPatch_Stage/ShellScripts/prereq_checkconflict.sh -OraHome /u01/app/oracle/product/12.1.0.2/DB_1 -PatchHome /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/34777353 -PatchName jdk
+2023-07-17 07:12:33 :: INFO :: ThreadPoolExecutor-0_0 :: Script Execurte     : Y
+2023-07-17 07:12:33 :: INFO :: ThreadPoolExecutor-0_0 :: Script Type         : local
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: === Task Info ===
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:12:34 :: INFO :: Thread-11 (print_output) :: ERROR:: 2023-07-17 07:12:34 EDT:: Error in  at line 71:: PATCH_HOME either does not exist or does not have read/write access.
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: End Time: 2023-07-17 07:12:34
+
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Disconnected from server: nrusca-sld0304
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server     : nrusca-sld0304
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Script File         : /u01/home/oracle/OraPatch_Stage/ShellScripts/prereq_checkconflict.sh -OraHome /u01/app/oracle/product/12.1.0.2/DB_1 -PatchHome /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023//OJVM/34763317 -PatchName ojvm
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Script Execurte     : Y
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Script Type         : local
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: === Task Info ===
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 07:12:34 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:12:34 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:34 EDT:: Running patch pre-requisite checks
+2023-07-17 07:12:34 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:34 EDT:: ORA_HOME is set to     : /u01/app/oracle/product/12.1.0.2/DB_1
+2023-07-17 07:12:34 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:34 EDT:: PATCH_HOME is set to   : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023//OJVM/34763317
+2023-07-17 07:12:34 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:34 EDT:: PATCH_NAME is set to   : ojvm
+2023-07-17 07:12:34 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:34 EDT:: PATCH_NUMBER is set to : 34763317
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT:: Oracle Interim Patch Installer version 12.2.0.1.36
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT:: Copyright (c) 2023, Oracle Corporation.  All rights reserved.
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT::
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT:: PREREQ session
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT::
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT:: Oracle Home       : /u01/app/oracle/product/12.1.0.2/DB_1
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT:: Central Inventory : /u01/app/oraInventory
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT::    from           : /u01/app/oracle/product/12.1.0.2/DB_1/oraInst.loc
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT:: OPatch version    : 12.2.0.1.36
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT:: OUI version       : 12.1.0.2.0
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT:: Log file location : /u01/app/oracle/product/12.1.0.2/DB_1/cfgtoollogs/opatch/opatch2023-07-17_07-12-36AM_1.log
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT::
+2023-07-17 07:12:36 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:36 EDT:: Invoking prereq "checkconflictagainstohwithdetail"
+2023-07-17 07:12:39 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:39 EDT::
+2023-07-17 07:12:39 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:39 EDT:: Prereq "checkConflictAgainstOHWithDetail" passed.
+2023-07-17 07:12:39 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:39 EDT::
+2023-07-17 07:12:39 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:39 EDT:: OPatch succeeded.
+2023-07-17 07:12:39 :: INFO :: Thread-15 (print_output) :: MESSAGE:: 2023-07-17 07:12:39 EDT:: ojvm patch pre-requisite checks completed successfully
+2023-07-17 07:12:39 :: INFO :: Thread-15 (print_output) :: RESULT:: 2023-07-17 07:12:39 EDT:: SUCCESSFUL
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: End Time: 2023-07-17 07:12:39
+
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: Disconnected from server: nrusca-sld0304
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: For Oracle Home: /u01/app/oracle/product/12.1.0.2/DB_2
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : copy_opatch
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server     : nrusca-sld0304
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: Script File         : /u01/home/oracle/OraPatch_Stage/ShellScripts/copy_opatch.sh -OraHome /u01/app/oracle/product/12.1.0.2/DB_2 -BkpLoc /u01/software/bkp_dir -OpatchZip /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: Script Execurte     : Y
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: Script Type         : local
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: === Task Info ===
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 07:12:39 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : copy_opatch
+2023-07-17 07:12:39 :: INFO :: Thread-19 (print_output) :: MESSAGE:: 2023-07-17 07:12:39 EDT:: Start Latest Opatch to /u01/app/oracle/product/12.1.0.2/DB_2
+2023-07-17 07:12:39 :: INFO :: Thread-19 (print_output) :: MESSAGE:: 2023-07-17 07:12:39 EDT:: Taking tar backup...
+2023-07-17 07:12:42 :: INFO :: Thread-19 (print_output) :: MESSAGE:: 2023-07-17 07:12:42 EDT:: Tar file created and verified. Creating zip...
+2023-07-17 07:12:56 :: INFO :: Thread-19 (print_output) :: MESSAGE:: 2023-07-17 07:12:56 EDT:: Zip file exists. Unzipping...
+2023-07-17 07:13:04 :: INFO :: Thread-19 (print_output) :: MESSAGE:: 2023-07-17 07:13:04 EDT:: OPatch copy completed successfully.
+2023-07-17 07:13:04 :: INFO :: Thread-19 (print_output) :: RESULT:: 2023-07-17 07:13:04 EDT:: SUCCESSFUL
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: End Time: 2023-07-17 07:13:04
+
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: Disconnected from server: nrusca-sld0304
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server     : nrusca-sld0304
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: Script File         : /u01/home/oracle/OraPatch_Stage/ShellScripts/prereq_checkconflict.sh -OraHome /u01/app/oracle/product/12.1.0.2/DB_2 -PatchHome /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/34677720 -PatchName psu
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: Script Execurte     : Y
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: Script Type         : local
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: === Task Info ===
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 07:13:04 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:13:04 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:04 EDT:: Running patch pre-requisite checks
+2023-07-17 07:13:04 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:04 EDT:: ORA_HOME is set to     : /u01/app/oracle/product/12.1.0.2/DB_2
+2023-07-17 07:13:04 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:04 EDT:: PATCH_HOME is set to   : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/34677720
+2023-07-17 07:13:04 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:04 EDT:: PATCH_NAME is set to   : psu
+2023-07-17 07:13:04 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:04 EDT:: PATCH_NUMBER is set to : 34677720
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT:: Oracle Interim Patch Installer version 12.2.0.1.36
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT:: Copyright (c) 2023, Oracle Corporation.  All rights reserved.
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT::
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT:: PREREQ session
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT::
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT:: Oracle Home       : /u01/app/oracle/product/12.1.0.2/DB_2
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT:: Central Inventory : /u01/app/oraInventory
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT::    from           : /u01/app/oracle/product/12.1.0.2/DB_2/oraInst.loc
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT:: OPatch version    : 12.2.0.1.36
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT:: OUI version       : 12.1.0.2.0
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT:: Log file location : /u01/app/oracle/product/12.1.0.2/DB_2/cfgtoollogs/opatch/opatch2023-07-17_07-13-06AM_1.log
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT::
+2023-07-17 07:13:06 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:06 EDT:: Invoking prereq "checkconflictagainstohwithdetail"
+2023-07-17 07:13:11 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:11 EDT::
+2023-07-17 07:13:11 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:11 EDT:: Prereq "checkConflictAgainstOHWithDetail" passed.
+2023-07-17 07:13:11 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:11 EDT::
+2023-07-17 07:13:11 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:11 EDT:: OPatch succeeded.
+2023-07-17 07:13:11 :: INFO :: Thread-23 (print_output) :: MESSAGE:: 2023-07-17 07:13:11 EDT:: psu patch pre-requisite checks completed successfully
+2023-07-17 07:13:11 :: INFO :: Thread-23 (print_output) :: RESULT:: 2023-07-17 07:13:11 EDT:: SUCCESSFUL
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: End Time: 2023-07-17 07:13:11
+
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: Disconnected from server: nrusca-sld0304
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server     : nrusca-sld0304
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: Script File         : /u01/home/oracle/OraPatch_Stage/ShellScripts/prereq_checkconflict.sh -OraHome /u01/app/oracle/product/12.1.0.2/DB_2 -PatchHome /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/34777353 -PatchName jdk
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: Script Execurte     : Y
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: Script Type         : local
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: === Task Info ===
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 07:13:11 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:13:12 :: INFO :: Thread-27 (print_output) :: ERROR:: 2023-07-17 07:13:12 EDT:: Error in  at line 71:: PATCH_HOME either does not exist or does not have read/write access.
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: End Time: 2023-07-17 07:13:12
+
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: Disconnected from server: nrusca-sld0304
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: === User Confirmation for Task Execution ===
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server     : nrusca-sld0304
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: Script File         : /u01/home/oracle/OraPatch_Stage/ShellScripts/prereq_checkconflict.sh -OraHome /u01/app/oracle/product/12.1.0.2/DB_2 -PatchHome /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023//OJVM/34763317 -PatchName ojvm
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: Script Execurte     : Y
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: Script Type         : local
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: === Task Info ===
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: Database Server : nrusca-sld0304
+2023-07-17 07:13:12 :: INFO :: ThreadPoolExecutor-0_0 :: Task Name           : prereq_checkconflict
+2023-07-17 07:13:12 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:12 EDT:: Running patch pre-requisite checks
+2023-07-17 07:13:12 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:12 EDT:: ORA_HOME is set to     : /u01/app/oracle/product/12.1.0.2/DB_2
+2023-07-17 07:13:12 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:12 EDT:: PATCH_HOME is set to   : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023//OJVM/34763317
+2023-07-17 07:13:12 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:12 EDT:: PATCH_NAME is set to   : ojvm
+2023-07-17 07:13:12 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:12 EDT:: PATCH_NUMBER is set to : 34763317
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT:: Oracle Interim Patch Installer version 12.2.0.1.36
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT:: Copyright (c) 2023, Oracle Corporation.  All rights reserved.
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT::
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT:: PREREQ session
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT::
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT:: Oracle Home       : /u01/app/oracle/product/12.1.0.2/DB_2
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT:: Central Inventory : /u01/app/oraInventory
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT::    from           : /u01/app/oracle/product/12.1.0.2/DB_2/oraInst.loc
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT:: OPatch version    : 12.2.0.1.36
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT:: OUI version       : 12.1.0.2.0
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT:: Log file location : /u01/app/oracle/product/12.1.0.2/DB_2/cfgtoollogs/opatch/opatch2023-07-17_07-13-13AM_1.log
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT::
+2023-07-17 07:13:14 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:14 EDT:: Invoking prereq "checkconflictagainstohwithdetail"
+2023-07-17 07:13:16 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:16 EDT::
+2023-07-17 07:13:16 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:16 EDT:: Prereq "checkConflictAgainstOHWithDetail" passed.
+2023-07-17 07:13:16 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:16 EDT::
+2023-07-17 07:13:16 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:16 EDT:: OPatch succeeded.
+2023-07-17 07:13:16 :: INFO :: Thread-31 (print_output) :: MESSAGE:: 2023-07-17 07:13:16 EDT:: ojvm patch pre-requisite checks completed successfully
+2023-07-17 07:13:16 :: INFO :: Thread-31 (print_output) :: RESULT:: 2023-07-17 07:13:16 EDT:: SUCCESSFUL
+2023-07-17 07:13:16 :: INFO :: ThreadPoolExecutor-0_0 :: End Time: 2023-07-17 07:13:16
+
+2023-07-17 07:13:16 :: INFO :: ThreadPoolExecutor-0_0 :: Disconnected from server: nrusca-sld0304
+2023-07-17 07:13:16 :: INFO :: ThreadPoolExecutor-0_0 :: Removed the lock file.
+2023-07-17 07:13:16 :: INFO :: ThreadPoolExecutor-0_0 :: Processing of server nrusca-sld0304 was Successful.
+2023-07-17 07:13:16 :: INFO :: MainThread :: Server: nrusca-sld0304, Start Time: 2023-07-17 07:12:03, End Time: 2023-07-17 07:13:16, Status: Successful

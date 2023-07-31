@@ -1,0 +1,26 @@
+server,status,message,start_time,end_time
+NRCHBS-SLD4157,0,SSH connection failed,2023-07-17 03:06:05.768113,2023-07-17 03:06:05.768120
+NRUSCA-SLD4242,0,SSH connection failed,2023-07-17 03:06:05.769008,2023-07-17 03:06:05.769009
+NRCHBS-SLD4219,0,SSH connection failed,2023-07-17 03:06:05.769300,2023-07-17 03:06:05.769301
+nrusca-sld0304,1,Shell Script Execution Successful,2023-07-17 03:06:05.769653,2023-07-17 03:06:58.519895
+nrusca-sld4043,1,Shell Script Execution Successful,2023-07-17 03:06:05.772123,2023-07-17 03:06:56.094119
+nrchbs-sld4113,1,Shell Script Execution Successful,2023-07-17 03:06:05.774649,2023-07-17 03:06:50.541757
+nrchbs-sld4116,1,Shell Script Execution Successful,2023-07-17 03:06:05.776906,2023-07-17 03:06:52.671082
+nrusca-sld4227,1,Shell Script Execution Successful,2023-07-17 03:06:05.779400,2023-07-17 03:06:54.812331
+nrusca-sld4219,1,Shell Script Execution Successful,2023-07-17 03:06:05.781230,2023-07-17 03:06:55.249222
+nrusca-sld4179,1,Shell Script Execution Successful,2023-07-17 03:06:05.784293,2023-07-17 03:06:58.471543
+nrusca-sld4178,1,Shell Script Execution Successful,2023-07-17 03:06:05.787181,2023-07-17 03:06:57.724405
+nrchbs-sld4130,1,Shell Script Execution Successful,2023-07-17 03:06:05.791297,2023-07-17 03:07:45.999412
+nrusca-sld4199,1,Shell Script Execution Successful,2023-07-17 03:06:05.794982,2023-07-17 03:06:57.488121
+nrusca-sld4203,1,Shell Script Execution Successful,2023-07-17 03:06:50.551926,2023-07-17 03:07:10.110954
+nrchbs-sld4086,1,Shell Script Execution Successful,2023-07-17 03:06:53.077996,2023-07-17 03:07:09.910083
+nrchbs-sld0147,1,Shell Script Execution Successful,2023-07-17 03:06:55.516182,2023-07-17 03:07:54.197977
+nrusca-sld4222,1,Shell Script Execution Successful,2023-07-17 03:06:55.632294,2023-07-17 03:07:22.049141
+nrusau-slt4032,1,Shell Script Execution Successful,2023-07-17 03:06:57.941267,2023-07-17 03:07:44.736203
+nrusca-sld4071,1,Shell Script Execution Successful,2023-07-17 03:07:00.121689,2023-07-17 03:07:31.571478
+nrusca-sld4910,1,Shell Script Execution Successful,2023-07-17 03:07:00.387680,2023-07-17 03:07:26.263413
+nrusca-sld4899,1,Shell Script Execution Successful,2023-07-17 03:07:01.790187,2023-07-17 03:07:25.379182
+nrchbs-sld4232,1,Shell Script Execution Successful,2023-07-17 03:07:01.806950,2023-07-17 03:07:29.707714
+NRCHBS-SLD4157,0,SSH connection failed,2023-07-17 03:07:54.218690,2023-07-17 03:07:54.218695
+NRUSCA-SLD4242,0,SSH connection failed,2023-07-17 03:07:54.218699,2023-07-17 03:07:54.218699
+NRCHBS-SLD4219,0,SSH connection failed,2023-07-17 03:07:54.218700,2023-07-17 03:07:54.218701

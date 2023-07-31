@@ -1,0 +1,78 @@
+MESSAGE:: 2023-07-17 05:46:33 EDT:: Start Latest Opatch to /u01/app/oracle/product/12.1.0.2/DB_1
+MESSAGE:: 2023-07-17 05:46:33 EDT:: Taking tar backup...
+MESSAGE:: 2023-07-17 05:46:37 EDT:: Tar file created and verified. Creating zip...
+MESSAGE:: 2023-07-17 05:46:52 EDT:: Zip file exists. Unzipping...
+MESSAGE:: 2023-07-17 05:46:57 EDT:: OPatch copy completed successfully.
+RESULT:: 2023-07-17 05:46:57 EDT:: SUCCESSFUL
+MESSAGE:: 2023-07-17 05:46:57 EDT:: Running patch pre-requisite checks
+MESSAGE:: 2023-07-17 05:46:57 EDT:: ORA_HOME is set to     : /u01/app/oracle/product/12.1.0.2/DB_1
+MESSAGE:: 2023-07-17 05:46:57 EDT:: PATCH_HOME is set to   : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/34677720
+MESSAGE:: 2023-07-17 05:46:57 EDT:: PATCH_NAME is set to   : psu
+MESSAGE:: 2023-07-17 05:46:57 EDT:: PATCH_NUMBER is set to : 34677720
+MESSAGE:: 2023-07-17 05:46:58 EDT:: Oracle Interim Patch Installer version 12.2.0.1.36
+MESSAGE:: 2023-07-17 05:46:58 EDT:: Copyright (c) 2023, Oracle Corporation.  All rights reserved.
+MESSAGE:: 2023-07-17 05:46:58 EDT::
+MESSAGE:: 2023-07-17 05:46:58 EDT:: PREREQ session
+MESSAGE:: 2023-07-17 05:46:58 EDT::
+MESSAGE:: 2023-07-17 05:46:58 EDT:: Oracle Home       : /u01/app/oracle/product/12.1.0.2/DB_1
+MESSAGE:: 2023-07-17 05:46:58 EDT:: Central Inventory : /u01/app/oraInventory
+MESSAGE:: 2023-07-17 05:46:58 EDT::    from           : /u01/app/oracle/product/12.1.0.2/DB_1/oraInst.loc
+MESSAGE:: 2023-07-17 05:46:58 EDT:: OPatch version    : 12.2.0.1.36
+MESSAGE:: 2023-07-17 05:46:58 EDT:: OUI version       : 12.1.0.2.0
+MESSAGE:: 2023-07-17 05:46:58 EDT:: Log file location : /u01/app/oracle/product/12.1.0.2/DB_1/cfgtoollogs/opatch/opatch2023-07-17_05-46-58AM_1.log
+MESSAGE:: 2023-07-17 05:46:58 EDT::
+MESSAGE:: 2023-07-17 05:46:58 EDT:: Invoking prereq "checkconflictagainstohwithdetail"
+MESSAGE:: 2023-07-17 05:47:02 EDT::
+MESSAGE:: 2023-07-17 05:47:02 EDT:: Prereq "checkConflictAgainstOHWithDetail" passed.
+MESSAGE:: 2023-07-17 05:47:02 EDT::
+MESSAGE:: 2023-07-17 05:47:02 EDT:: OPatch succeeded.
+MESSAGE:: 2023-07-17 05:47:02 EDT:: psu patch pre-requisite checks completed successfully
+RESULT:: 2023-07-17 05:47:02 EDT:: SUCCESSFUL
+MESSAGE:: 2023-07-17 05:47:03 EDT:: Running patch pre-requisite checks
+MESSAGE:: 2023-07-17 05:47:03 EDT:: ORA_HOME is set to     : /u01/app/oracle/product/12.1.0.2/DB_1
+MESSAGE:: 2023-07-17 05:47:03 EDT:: PATCH_HOME is set to   : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/34777353
+MESSAGE:: 2023-07-17 05:47:03 EDT:: PATCH_NAME is set to   : jdk
+MESSAGE:: 2023-07-17 05:47:03 EDT:: PATCH_NUMBER is set to : 34777353
+MESSAGE:: 2023-07-17 05:47:03 EDT:: Oracle Interim Patch Installer version 12.2.0.1.36
+MESSAGE:: 2023-07-17 05:47:03 EDT:: Copyright (c) 2023, Oracle Corporation.  All rights reserved.
+MESSAGE:: 2023-07-17 05:47:03 EDT::
+MESSAGE:: 2023-07-17 05:47:04 EDT:: PREREQ session
+MESSAGE:: 2023-07-17 05:47:04 EDT::
+MESSAGE:: 2023-07-17 05:47:04 EDT:: Oracle Home       : /u01/app/oracle/product/12.1.0.2/DB_1
+MESSAGE:: 2023-07-17 05:47:04 EDT:: Central Inventory : /u01/app/oraInventory
+MESSAGE:: 2023-07-17 05:47:04 EDT::    from           : /u01/app/oracle/product/12.1.0.2/DB_1/oraInst.loc
+MESSAGE:: 2023-07-17 05:47:04 EDT:: OPatch version    : 12.2.0.1.36
+MESSAGE:: 2023-07-17 05:47:04 EDT:: OUI version       : 12.1.0.2.0
+MESSAGE:: 2023-07-17 05:47:04 EDT:: Log file location : /u01/app/oracle/product/12.1.0.2/DB_1/cfgtoollogs/opatch/opatch2023-07-17_05-47-03AM_1.log
+MESSAGE:: 2023-07-17 05:47:04 EDT::
+MESSAGE:: 2023-07-17 05:47:04 EDT:: Invoking prereq "checkconflictagainstohwithdetail"
+MESSAGE:: 2023-07-17 05:47:06 EDT::
+MESSAGE:: 2023-07-17 05:47:06 EDT:: Prereq "checkConflictAgainstOHWithDetail" passed.
+MESSAGE:: 2023-07-17 05:47:07 EDT::
+MESSAGE:: 2023-07-17 05:47:07 EDT:: OPatch succeeded.
+MESSAGE:: 2023-07-17 05:47:07 EDT:: jdk patch pre-requisite checks completed successfully
+RESULT:: 2023-07-17 05:47:07 EDT:: SUCCESSFUL
+MESSAGE:: 2023-07-17 05:47:07 EDT:: Running patch pre-requisite checks
+MESSAGE:: 2023-07-17 05:47:07 EDT:: ORA_HOME is set to     : /u01/app/oracle/product/12.1.0.2/DB_1
+MESSAGE:: 2023-07-17 05:47:07 EDT:: PATCH_HOME is set to   : /u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023//OJVM/34763317
+MESSAGE:: 2023-07-17 05:47:07 EDT:: PATCH_NAME is set to   : ojvm
+MESSAGE:: 2023-07-17 05:47:07 EDT:: PATCH_NUMBER is set to : 34763317
+MESSAGE:: 2023-07-17 05:47:08 EDT:: Oracle Interim Patch Installer version 12.2.0.1.36
+MESSAGE:: 2023-07-17 05:47:08 EDT:: Copyright (c) 2023, Oracle Corporation.  All rights reserved.
+MESSAGE:: 2023-07-17 05:47:08 EDT::
+MESSAGE:: 2023-07-17 05:47:08 EDT:: PREREQ session
+MESSAGE:: 2023-07-17 05:47:08 EDT::
+MESSAGE:: 2023-07-17 05:47:08 EDT:: Oracle Home       : /u01/app/oracle/product/12.1.0.2/DB_1
+MESSAGE:: 2023-07-17 05:47:08 EDT:: Central Inventory : /u01/app/oraInventory
+MESSAGE:: 2023-07-17 05:47:08 EDT::    from           : /u01/app/oracle/product/12.1.0.2/DB_1/oraInst.loc
+MESSAGE:: 2023-07-17 05:47:08 EDT:: OPatch version    : 12.2.0.1.36
+MESSAGE:: 2023-07-17 05:47:08 EDT:: OUI version       : 12.1.0.2.0
+MESSAGE:: 2023-07-17 05:47:08 EDT:: Log file location : /u01/app/oracle/product/12.1.0.2/DB_1/cfgtoollogs/opatch/opatch2023-07-17_05-47-07AM_1.log
+MESSAGE:: 2023-07-17 05:47:08 EDT::
+MESSAGE:: 2023-07-17 05:47:08 EDT:: Invoking prereq "checkconflictagainstohwithdetail"
+MESSAGE:: 2023-07-17 05:47:10 EDT::
+MESSAGE:: 2023-07-17 05:47:10 EDT:: Prereq "checkConflictAgainstOHWithDetail" passed.
+MESSAGE:: 2023-07-17 05:47:10 EDT::
+MESSAGE:: 2023-07-17 05:47:10 EDT:: OPatch succeeded.
+MESSAGE:: 2023-07-17 05:47:10 EDT:: ojvm patch pre-requisite checks completed successfully
+RESULT:: 2023-07-17 05:47:10 EDT:: SUCCESSFUL

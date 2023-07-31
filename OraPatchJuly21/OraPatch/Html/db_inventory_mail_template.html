@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            table-layout: auto;
+            width: max-content;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: lightSkyBlue;
+            color: black;
+        }
+        td {
+            background-color: white;
+        }
+        .details {
+            margin-bottom: 20px;
+        }
+        .details th {
+            background-color: white;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .signature {
+            font-weight: bold;
+        }
+        .signature .normal {
+            font-weight: normal;
+        }
+        h1 {
+            font-size: 1em;  /* This sets the font size of h1 to be the same as normal text */
+        }
+    </style>
+</head>
+<body>
+    <p><b>Hi {{ recipient_email }},</b></p>
+    
+    <p>This automated report delivers a detailed overview of your Oracle database and server metadata. It's specifically designed to assist in your patch management process by providing crucial insights for both pre-patch preparation and post-patch assessments.</p>
+
+    <h1 class="bold underline">Job Execution Summary</h1>
+    
+    <p>
+        <span class="bold">Program Name:</span>        {{ program_name }}<br>
+        <span class="bold">Host Server:</span>         {{ host_server }}<br>
+        <span class="bold">Program Mode:</span>        {{ program_mode }}<br>
+        <span class="bold">Number of Servers:</span>   {{ number_of_servers }}<br>
+        <span class="bold">Start Date and Time:</span> {{ start_datetime }}<br>
+        <span class="bold">End Date and Time:</span>   {{ end_datetime }}<br>
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Server Name</th>
+                <th>Status</th>
+                <th>Message</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for result in results %}
+            <tr>
+                <td>{{ result.server }}</td>
+                <td>{{ result.status }}</td>
+                <td>{{ result.message }}</td>
+                <td>{{ result.start_time }}</td>
+                <td>{{ result.end_time }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <p class="signature">Regards,<br><span class="normal">TIS DB</span><br>{{ sender_email }}</p>
+    <p>&nbsp;</p>
+</body>
+</html>

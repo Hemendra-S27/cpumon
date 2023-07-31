@@ -1,0 +1,13 @@
+tasks:
+  - name: copy_opatch
+    description: "This task copies OPatch."
+    execute: Y
+    type: local
+    path: /u01/home/oracle/OraPatch_Stage/ShellScripts/copy_opatch.sh
+    arguments: [OraHome, BkpLoc, OpatchZip]
+  - name: prereq_checkconflict
+    description: "This task checks for conflicts before applying a patch."
+    execute: Y
+    type: local
+    path: /u01/home/oracle/OraPatch_Stage/ShellScripts/prereq_checkconflict.sh
+    arguments: [OraHome, PatchHome, PatchName]

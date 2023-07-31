@@ -1,0 +1,36 @@
+"globalparams":
+  "InventoryKey": "INVKEY20230717043416"
+  "BkpLoc": "/u01/software/bkp_dir"
+  "OraInv": "/u01/app/oraInventory"
+"oraclehomes":
+- "OraHome": "/u01/app/oracle/product/12.1.0.2/DB_1"
+  "SidList": "BSCIEL1D"
+  "parameters":
+    "db_release": "12cR1"
+    "home_active": "check_is_disable"
+    "home_exist": "YES"
+    "home_type": "OH"
+    "need_to_patch": "Y"
+    "opatch_version": "12.2.0.1.30"
+    "os_name": "Linux"
+    "os_release": "RedHat"
+    "sqlplus_version": "12.1.0.2.0"
+  "PatchName":
+    "psu":
+      "apply": "Y"
+      "PatchHome": "/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/34677720"
+      "PatchZip": "/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/patch/patch.zip"
+    "jdk":
+      "apply": "Y"
+      "PatchHome": "/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/34777353"
+      "PatchZip": "/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/JDK/JDK.zip"
+    "ojvm":
+      "apply": "Y"
+      "PatchHome": "/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023//OJVM/34763317"
+      "PatchZip": "/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/OJVM/OJVM.zip"
+    "perl":
+      "apply": "N"
+      "PatchHome": null
+      "PatchZip": null
+  "opatch":
+    "OpatchZip": "/u01/software/AUTOMATION/ANSIBLE/patching/RedHat/12cR1/H1_2023/opatch/opatch.zip"
