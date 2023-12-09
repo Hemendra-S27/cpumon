@@ -14,5 +14,6 @@ def home():
         </ul>
     ''', cpus=cpu_percentages)
 
+# Add by local
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
